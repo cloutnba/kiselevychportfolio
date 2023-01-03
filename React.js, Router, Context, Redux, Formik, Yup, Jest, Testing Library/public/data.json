@@ -1,0 +1,87 @@
+[
+  {
+    "name": "RODE NT1-A",
+    "price": 11000,
+    "img": "https://content.rozetka.com.ua/goods/images/big/188330760.jpg",
+    "article": 23410,
+    "color": "Gold"
+  },
+  {
+    "name": "Rode NT2-A kit",
+    "price": 17990,
+    "img": "https://content.rozetka.com.ua/goods/images/big/265291265.jpg",
+    "article": 94512,
+    "color": "Silver"
+  },
+  {
+    "name": "Rode NT-USB",
+    "price": 8200,
+    "img": "https://content2.rozetka.com.ua/goods/images/big/265301609.jpg",
+    "article": 34125,
+    "color": "Black"
+  },
+  {
+    "name": "Rode NT1 kit",
+    "price": 12500,
+    "img": "https://content1.rozetka.com.ua/goods/images/big/265291846.jpg",
+    "article": 97412,
+    "color": "Black"
+  },
+  {
+    "name": "Neumann U 67 Set",
+    "price": 265000,
+    "img": "https://content2.rozetka.com.ua/goods/images/big/188331885.jpg",
+    "article": 19312,
+    "color": "Gold"
+  },
+  {
+    "name": "Neumann TLM 102",
+    "price": 24500,
+    "img": "https://content1.rozetka.com.ua/goods/images/big/10622929.jpg",
+    "article": 41777,
+    "color": "Rose Gold"
+  },
+  {
+    "name": "Neumann M147",
+    "price": 109000,
+    "img": "https://content.rozetka.com.ua/goods/images/big/15582931.jpg",
+    "article": 77326,
+    "color": "Rose Gold"
+  },
+  {
+    "name": "Neumann U 87Ai ",
+    "price": 126000,
+    "img": "https://content2.rozetka.com.ua/goods/images/big/176828294.jpg",
+    "article": 45109,
+    "color": "Chrome"
+  },
+  {
+    "name": "AKG C44-USB ",
+    "price": 6800,
+    "img": "https://content2.rozetka.com.ua/goods/images/big/220134815.jpg",
+    "article": 66621,
+    "color": "Metallic"
+  },
+  {
+    "name": "AKG P220",
+    "price": 17990,
+    "img": "https://content1.rozetka.com.ua/goods/images/big/286149204.jpg",
+    "article": 310120,
+    "color": "Black"
+  },
+  {
+    "name": "AKG C314 Pair",
+    "price": 68000,
+    "img": "https://content.rozetka.com.ua/goods/images/big/291796971.jpg",
+    "article": 111222,
+    "color": "Silver"
+  },
+  {
+    "name": "AKG C3000",
+    "price": 12000,
+    "img": "https://content.rozetka.com.ua/goods/images/big/188331084.jpg",
+    "article": 222111,
+    "color": "Black"
+  }
+]
+
