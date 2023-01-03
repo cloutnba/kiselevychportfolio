@@ -1,0 +1,86 @@
+.section-talking {
+  background-color: #4a3b4e;
+  background-image: url("../../dist/images/talking/background.png");
+  background-size: cover;
+  background-position: center;
+}
+
+
+.talking-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.section-talking__title {
+  text-align: center;
+  padding-top: 108px;
+  margin-bottom: 80px;
+  @include font-options(700,48,50);
+  color: white;
+  font-family: 'Montserrat';
+  @media (max-width: 992px) {
+    @include font-options(700,42,44);
+  }
+  @media (max-width: 992px) {
+    @include font-options(700,36,48);
+  }
+}
+
+.section-talking__content {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  margin-bottom: 120px;
+  column-gap: 86px;
+  row-gap: 110px;
+  @media (max-width: 992px) {
+    grid-template-columns: repeat(2,1fr);
+    grid-template-rows: repeat(3,1fr);
+    row-gap: 58px;
+  }
+  @media (max-width: 480px) {
+    grid-template-columns: 1fr;
+    row-gap: 44px;
+  }
+}
+
+.section-talking__card {
+  display: grid;
+  grid-template-rows: repeat(2, 1fr);
+}
+
+.section-talking__image {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 34px;
+}
+
+.section-talking__text {
+  max-width: 354px;
+  text-align: center;
+  font-family: "Lato";
+  font-style: italic;
+  @include font-options(700,16,24);
+  color: #FFFFFF;
+}
+
+.section-talking__desc {
+  max-width: 886px;
+  text-align: center;
+  font-family: "Lato";
+  font-style: normal;
+  @include font-options(400,14,21);
+  color: #A291A5;
+  padding-bottom: 18px;
+  margin: 0 30px;
+}
+
+.section-talking__line{
+  min-width: 320px;
+  margin-bottom: 30px;
+  width: 50vw;
+  border: 2px solid #645766;
+  background-color: #645766;
+}

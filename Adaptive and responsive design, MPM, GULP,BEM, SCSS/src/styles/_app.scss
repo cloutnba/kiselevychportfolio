@@ -1,0 +1,110 @@
+.page_main {
+}
+
+.section-app {
+  background-image: url("../../dist/images/ForkApp/background.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position-y: bottom;
+  background-position-x: center;
+}
+
+.container {
+}
+
+.app-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 130px;
+  padding-bottom: 150px;
+}
+
+.section-app__title {
+  @include font-options(700,82,82);
+  font-family: 'Montserrat';
+  color: white;
+  margin-bottom: 20px;
+  margin-top: 82px;
+  @media (max-width: 992px) {
+    margin-top: 62px;
+  }
+  
+  @media (max-width: 481px) {
+    @include font-options(700,48,48);
+  }
+  
+}
+
+.section-app__sub-title {
+  @include font-options(400,30,30);
+  font-family: 'Lato', sans-serif;
+  color: $purple-color;
+  margin-bottom: 20px;
+  text-align: center;
+  @media (max-width: 481px) {
+    @include font-options(400,18,24);
+    font-family: 'Montserrat';
+  }
+}
+
+.section-app__desc {
+  @include font-options(400,16,16);
+  font-family: 'Montserrat';
+  margin-bottom: 350px;
+  color: #848E97;
+}
+
+
+
+.download-button {
+  padding: 22px 60px;
+  @include font-options(700,21,22);
+  width: fit-content;
+  position: absolute;
+  top: 823px;
+  &:hover{
+    background-color: white;
+    color: $purple-color;
+  }
+  @media (max-width: 992px) {
+    top: 815px;
+  }
+
+  @media (max-width: 782px) {
+    top: 845px;
+  }
+
+  @media (max-width: 481px) {
+    top: 780px;
+    padding: 14px 30px;
+  }
+}
+
+.section-app__download-trial {
+  @include font-options(400,14,15);
+  color: #848E97;
+  font-family: 'Montserrat';
+  position: absolute;
+  top: 888px;
+  margin-top: 20px;
+  @media (max-width: 992px) {
+    top: 880px;
+  }
+
+  @media (max-width: 782px) {
+    top: 910px;
+  }
+
+  @media (max-width: 481px) {
+    top: 829px;
+  }
+
+}
+
+.br{
+  display: none;
+  @media (max-width: 481px) {
+    display: inline;
+  }
+}

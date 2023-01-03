@@ -1,0 +1,20 @@
+*, *::before, *::after{
+  box-sizing: border-box;
+}
+
+
+.container{
+  max-width: 1200px;
+  min-width: 320px ;
+  padding-left: 10px;
+  padding-right: 10px;
+  margin: 0 auto;
+}
+
+.button {
+  background-color: #8D81AC;
+  border-radius: 40px;
+  color: white;
+  border: 1px solid #8D81AC;
+}
+

@@ -1,0 +1,153 @@
+.pricing {
+    background-image: url("../images/pricing/pricebackground.png");
+    background-size: cover;
+    background-position-y: 20%;
+    font-family: 'Montserrat';
+}
+.section-talking__title {
+    @include font-options(700, 48, 50);
+    text-align: center;
+    padding-top: 83px;
+    color: rgba(255, 255, 255, 1);
+    @media (max-width: 992px) {
+        @include font-options(700, 42, 44);
+    }
+    @media (max-width: 630px) {
+        @include font-options(700, 28, 42);
+    }
+}
+.pricing-list__wrapper {
+    margin-top: 61px;
+    padding-bottom: 97px;
+    @media (max-width: 1120px) {
+        margin-top: 39px;
+    }
+    @media (max-width: 630px) {
+        margin-top: 32px;
+    }
+}
+.pricing-list {
+    display: grid;
+    grid-template-columns: 257px 257px 299px 257px;
+    grid-template-rows: 560px;
+    gap: 15px;
+    justify-content: center;
+    @media (max-width: 1120px) {
+        display: grid;
+        grid-template-columns: repeat(2, 257px);
+        grid-template-rows: 457px;
+        justify-items: center;
+        gap: 25px;
+    }
+    @media (max-width: 540px) {
+        display: flex;
+        flex-direction: column;
+    }
+}
+.pricing-item {
+    align-self: center;
+    width: 257px;
+    display: flex;
+    background: rgba(255, 255, 255, 0.11);
+    flex-direction: column;
+    align-items: center;
+    color: rgba(255, 255, 255, 1);
+    &__three {
+        width: 299px;
+        background: rgba(70, 48, 72, 1);
+        @media (max-width: 1120px) {
+            justify-self: end;
+        }
+    }
+}
+.pricing-item__four {
+    margin-right: 0;
+}
+.pricing-list__title {
+    text-transform: uppercase;
+    background-color: rgba(255, 255, 255, 0.06);
+    width: 257px;
+    padding: 36px 0 36px 0;
+    @include font-options(400, 24, 24);
+    text-align: center;
+    &--three {
+        width: 299px;
+        padding: 43px 0 43px 0;
+        background-color: rgba(0, 0, 0, 0.11);
+    }
+}
+.pricing-item__content-wrapper {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+.pricing-item__price {
+    @include font-options(400, 60, 90);
+    margin: 5px 0 5px 0;
+    text-align: center;
+    &--three {
+        @include font-options(400, 82, 90);
+        margin-bottom: 15px;
+    }
+}
+.pricing-item__price--decor {
+    @include font-options(700, 60, 90);
+    margin-left: -15px;
+    &--three {
+        @include font-options(700, 82, 90);
+    }
+}
+.pricing-item__month {
+    text-align: center;
+    margin-bottom: 38px;
+    &--three {
+        margin-bottom: 46px;
+    }
+}
+.pricing-item__line {
+    text-align: center;
+    background-color: rgba(141, 129, 172, 1);
+    border: none;
+    height: 5px;
+    width: 60px;
+    margin: 0 auto 30px auto;
+    &--three {
+        margin-bottom: 45px;
+    }
+}
+.pricing-item__text {
+    @include font-options(400, 15, 18);
+    text-align: center;
+    margin-bottom: 67px;
+    &--one {
+        margin-bottom: 84px;
+    }
+    &--three {
+        margin-bottom: 0;
+    }
+    &--three-2 {
+        margin-bottom: 83px;
+    }
+}
+.pricing-item__button {
+    @include font-options(400, 15, 15);
+    color: rgba(255, 255, 255, 1);
+    text-transform: uppercase;
+    cursor: pointer;
+    border: 0;
+    padding: 15px 0 15px 0;
+    background-color: rgba(255, 255, 255, 0.15);
+    width: 163px;
+    border-radius: 25px;
+    text-align: center;
+    margin: 0 auto 37px auto;
+    &:hover {
+        background-color: rgba(255, 255, 255, 0.35);
+    }
+    &--three {
+        @include font-options(400, 16, 18);
+        padding: 19px 0 19px 0;
+        width: 190px;
+        margin: 0 auto 47px auto;
+    }
+}
